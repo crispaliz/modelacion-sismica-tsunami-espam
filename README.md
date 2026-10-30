@@ -16,6 +16,8 @@ Todo el contenido es público. Los cuadernos corren en Google Colab con una cuen
 
 **Cómo trabajar:** abran el enlace, guarden una copia en su Drive (*Archivo → Guardar una copia en Drive*) y ejecuten las celdas en orden. Solo se editan las celdas marcadas con ✏️.
 
+En el cuaderno del Capítulo 1, el evento y la localidad se eligen en **menús desplegables**: la fecha, la zona de búsqueda en los catálogos y las coordenadas de la localidad se completan solas. La ficha exportada lleva también la localidad, y el cuaderno de Okada la toma del CSV sin escribir coordenadas. Las coordenadas de las localidades son las aproximadas del centro poblado.
+
 ## Datos
 
 Los cuadernos descargan los datos en el momento desde fuentes públicas y gratuitas:
