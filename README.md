@@ -23,7 +23,7 @@ Los cuadernos descargan los datos en el momento desde fuentes públicas y gratui
 - **USGS**, catálogo de sismos (servicio FDSN): localización, magnitud, tensor de momento W-phase, réplicas. https://earthquake.usgs.gov/fdsnws/event/1/
 - **Global CMT**, catálogo completo en formato NDK: centroide, momento sísmico y planos nodales. https://www.globalcmt.org/
 - **Límites de placa PB2002** (Bird, 2003), en GeoJSON de [fraxen/tectonicplates](https://github.com/fraxen/tectonicplates) (licencia ODC-By).
-- **Línea de costa** de Natural Earth (dominio público).
+- **Línea de costa, límites internacionales y provinciales y poblados** de Natural Earth 1:10 m (dominio público).
 
 La carpeta `datos/` guarda copias de los límites de placa y de la costa, y en `datos/respaldo/` una copia de los datos de cada evento de la guía. Si el USGS o Global CMT no responden, los cuadernos usan esa copia y lo indican.
 
@@ -32,6 +32,10 @@ La carpeta `datos/` guarda copias de los límites de placa y de la costa, y en `
 | `datos/pb2002_limites.geojson` | Límites de placa PB2002 |
 | `datos/pb2002_pasos.csv` | Tramos de límite PB2002 con su clase (`SUB` = subducción) y velocidad relativa (mm/a) |
 | `datos/ne_50m_coastline.geojson` | Línea de costa Natural Earth 1:50 m |
+| `datos/ne_10m_costa.geojson` | Línea de costa Natural Earth 1:10 m (coordenadas a 3 decimales) |
+| `datos/ne_10m_limites_paises.geojson` | Límites internacionales Natural Earth 1:10 m |
+| `datos/ne_10m_limites_provincias.geojson` | Límites de primer nivel administrativo (provincias, estados) Natural Earth 1:10 m |
+| `datos/ne_10m_poblados.csv` | Poblados Natural Earth 1:10 m: nombre, país, provincia, coordenadas y población |
 | `datos/respaldo/<evento>/` | `usgs_detalle.json`, `replicas.csv` y `gcmt.ndk` de cada evento |
 
 ## Referencias
