@@ -12,13 +12,19 @@ Todo el contenido es público. Los cuadernos corren en Google Colab con una cuen
 |---|---|---|
 | `Cap1_fuente_sismica.ipynb` | Capítulo 1 del proyecto integrador: datos del USGS y Global CMT, comparación entre agencias, pelotas de playa, réplicas, mapa tectónico, dimensiones de la ruptura, deslizamiento y ficha de la fuente en CSV | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crispaliz/modelacion-sismica-tsunami-espam/blob/main/cuadernos/Cap1_fuente_sismica.ipynb) |
 | `Practica_consolidacion_Okada_IRD505.ipynb` | De la ficha de la fuente a la deformación: modelo de Okada (1985), mapa de Uz, perfil por la localidad, validación, sensibilidad y condición inicial del tsunami. Lee la ficha desde el CSV del Capítulo 1 | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crispaliz/modelacion-sismica-tsunami-espam/blob/main/cuadernos/Practica_consolidacion_Okada_IRD505.ipynb) |
-| `Cap2_deformacion_cosismica.ipynb` | Capítulo 2 (Unidad 2): de la falla finita del USGS a la condición inicial del tsunami. Geometría en profundidad, rectángulo uniforme frente a falla finita, rigidez variable, cinemática animada de la ruptura, aporte horizontal (Tanioka y Satake) y filtro de Kajiura, validación con observaciones, sensibilidad y exportación para GeoClaw | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crispaliz/modelacion-sismica-tsunami-espam/blob/main/cuadernos/Cap2_deformacion_cosismica.ipynb) |
+| `Cap2_deformacion_cosismica.ipynb` | Capítulo 2 (Unidad 2): de la falla finita del USGS a la condición inicial del tsunami. Geometría en profundidad, rectángulo uniforme frente a falla finita, rigidez variable, cinemática animada de la ruptura, aporte horizontal (Tanioka y Satake) y filtro de Kajiura, validación con observaciones, sensibilidad y exportación para GeoClaw. Incluye la bitácora de decisiones, el diagnóstico y el cierre metacognitivo de la habilidad *resolución de problemas complejos* | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crispaliz/modelacion-sismica-tsunami-espam/blob/main/cuadernos/Cap2_deformacion_cosismica.ipynb) |
 | `DOCENTE_preparar_datos_U2.ipynb` | Uso docente: descarga para los 11 eventos la falla finita y el tensor del USGS, la batimetría ETOPO 2022 (regional y costera) y Slab2, y los deja en `datos/eventos/` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crispaliz/modelacion-sismica-tsunami-espam/blob/main/cuadernos/DOCENTE_preparar_datos_U2.ipynb) |
 | `DOCENTE_preparar_respaldo.ipynb` | Uso docente: descarga y empaqueta la copia de respaldo de los datos de los 11 eventos | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/crispaliz/modelacion-sismica-tsunami-espam/blob/main/cuadernos/DOCENTE_preparar_respaldo.ipynb) |
 
 **Cómo trabajar:** abran el enlace, guarden una copia en su Drive (*Archivo → Guardar una copia en Drive*) y ejecuten las celdas en orden. Solo se editan las celdas marcadas con ✏️.
 
 En el cuaderno del Capítulo 1, el evento y la localidad se eligen en **menús desplegables**: la fecha, la zona de búsqueda en los catálogos y las coordenadas de la localidad se completan solas. La ficha exportada lleva también la localidad, y el cuaderno de Okada la toma del CSV sin escribir coordenadas. Las coordenadas de las localidades son las aproximadas del centro poblado.
+
+## Guías
+
+| Guía | Contenido |
+|---|---|
+| [`guias/Capitulo2_guia_y_rubrica.md`](guias/Capitulo2_guia_y_rubrica.md) | Capítulo 2: propósito, pasos, estructura del informe, evaluación formativa y sumativa, rúbrica (incluido el criterio de resolución de problemas complejos) y errores frecuentes |
 
 ## Datos
 
