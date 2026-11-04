@@ -35,9 +35,9 @@ EVENTOS = {
                           plano="menor_buzamiento", slab="sum"),
     "Samoa 2009": dict(fecha="2009-09-29", lat=-15.49, lon=-172.10, Mw=8.1,
                        tipo="Normal, fuera de la fosa", escala="otro",
-                       plano=1, slab=None),
+                       plano=2, slab=None),
     "Océano Índico 2012": dict(fecha="2012-04-11", lat=2.33, lon=93.06, Mw=8.6,
-                               tipo="Rumbo", escala="otro", plano=1, slab=None),
+                               tipo="Rumbo", escala="otro", plano=2, slab=None),
 }
 
 LOCALIDADES = {
@@ -62,6 +62,10 @@ LOCALIDADES = {
     "Océano Índico 2012": {"Meulaboh": (4.137, 96.128), "Sinabang (Simeulue)": (2.478, 96.379),
                            "Banda Aceh": (5.550, 95.317)},
 }
+
+# plano: regla para el rectángulo uniforme. En Samoa 2009 y Océano Índico 2012 el valor
+# por defecto es el plano nodal más parecido al que usa la falla finita del USGS; los
+# grupos deben justificar la elección (y pueden probar el otro plano).
 
 # Qué enseña cada evento en la Unidad 2 (pregunta guía del capítulo 2)
 PREGUNTA_U2 = {

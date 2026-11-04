@@ -15,6 +15,7 @@ from .okada import okada85
 KM_POR_GRADO_LAT = 110.574
 KM_POR_GRADO_LON_ECUADOR = 111.320
 MU_REF = 30e9  # Pa, rigidez de referencia
+Z_MIN_SUP = 0.05  # km, profundidad mínima del borde superior de una subfalla
 
 
 # ---------------------------------------------------------------------------
@@ -102,9 +103,15 @@ class Subfalla:
         x_ok = x + 0.5 * self.L
         y_ok = y + 0.5 * self.W * np.cos(dl)
         d = self.prof + 0.5 * self.W * np.sin(dl)
+        # Si la subfalla asoma sobre la superficie (pasa en algunos modelos del USGS
+        # cerca de la fosa), se recorta la parte que queda fuera del semiespacio:
+        # el borde profundo (origen de Okada) no cambia, solo el ancho efectivo.
+        W_ef = self.W
+        if d - self.W * np.sin(dl) < Z_MIN_SUP:
+            W_ef = max((d - Z_MIN_SUP) / max(np.sin(dl), 1e-6), 1e-3)
         U1 = self.slip * np.cos(np.radians(self.rake))
         U2 = self.slip * np.sin(np.radians(self.rake))
-        ux, uy, uz = okada85(x_ok, y_ok, d, self.buz, self.L, self.W, U1, U2, nu)
+        ux, uy, uz = okada85(x_ok, y_ok, d, self.buz, self.L, W_ef, U1, U2, nu)
         uE = ux * np.sin(phi) - uy * np.cos(phi)
         uN = ux * np.cos(phi) + uy * np.sin(phi)
         return uE, uN, uz

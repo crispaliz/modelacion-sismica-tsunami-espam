@@ -1,0 +1,90 @@
+{
+  "Pedernales 2016": {
+    "id_usgs": "us20005j32",
+    "Mw": 7.8,
+    "tensor": true,
+    "falla_finita": "falla_finita.param",
+    "slab2": "slab2_profundidad.grd",
+    "costas": 1
+  },
+  "Maule 2010": {
+    "id_usgs": "official20100227063411530_30",
+    "Mw": 8.8,
+    "tensor": true,
+    "falla_finita": "falla_finita.param",
+    "slab2": "slab2_profundidad.grd",
+    "costas": 3
+  },
+  "Illapel 2015": {
+    "id_usgs": "us20003k7a",
+    "Mw": 8.3,
+    "tensor": true,
+    "falla_finita": "falla_finita.param",
+    "slab2": "slab2_profundidad.grd",
+    "costas": 3
+  },
+  "Iquique 2014": {
+    "id_usgs": "usc000nzvd",
+    "Mw": 8.2,
+    "tensor": true,
+    "falla_finita": "falla_finita.param",
+    "slab2": "slab2_profundidad.grd",
+    "costas": 2
+  },
+  "Pisco 2007": {
+    "id_usgs": "usp000fjta",
+    "Mw": 8,
+    "tensor": true,
+    "falla_finita": "falla_finita.param",
+    "slab2": "slab2_profundidad.grd",
+    "costas": 3
+  },
+  "Camaná 2001": {
+    "id_usgs": "official20010623203314130_33",
+    "Mw": 8.4,
+    "tensor": true,
+    "falla_finita": "falla_finita.param",
+    "slab2": "slab2_profundidad.grd",
+    "costas": 3
+  },
+  "Tohoku 2011": {
+    "id_usgs": "official20110311054624120_30",
+    "Mw": 9.1,
+    "tensor": true,
+    "falla_finita": "falla_finita.param",
+    "slab2": "slab2_profundidad.grd",
+    "costas": 4
+  },
+  "Nicaragua 1992": {
+    "id_usgs": "usp0005ddn",
+    "Mw": 7.7,
+    "tensor": true,
+    "falla_finita": "falla_finita.param",
+    "slab2": "slab2_profundidad.grd",
+    "costas": 3
+  },
+  "Mentawai 2010": {
+    "id_usgs": "usp000hnj4",
+    "Mw": 7.8,
+    "tensor": true,
+    "falla_finita": "falla_finita.param",
+    "slab2": "slab2_profundidad.grd",
+    "costas": 2
+  },
+  "Samoa 2009": {
+    "id_usgs": "usp000h1ys",
+    "Mw": 8.1,
+    "tensor": true,
+    "falla_finita": "falla_finita.param",
+    "slab2": null,
+    "costas": 3
+  },
+  "Océano Índico 2012": {
+    "id_usgs": "official20120411083836720_20",
+    "Mw": 8.6,
+    "tensor": true,
+    "falla_finita": "falla_finita.param",
+    "slab2": null,
+    "costas": 3
+  }
+}

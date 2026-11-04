@@ -1,0 +1,82 @@
+{
+  "id_usgs": "official20120411083836720_20",
+  "titulo": "M 8.6 - 2012 Wharton Basin Earthquake",
+  "tiempo_utc": "2012-04-11T08:38:36Z",
+  "hipocentro": {
+    "lon": 93.063,
+    "lat": 2.327,
+    "prof_km": 20
+  },
+  "magnitud": 8.6,
+  "tipo_magnitud": "mw",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/official20120411083836720_20",
+  "productos": {
+    "moment-tensor": "us",
+    "finite-fault": {
+      "basic_inversion.param": "https://earthquake.usgs.gov/product/finite-fault/usp000jhh2/us/1539808586118/basic_inversion.param",
+      "complete_inversion.fsp": "https://earthquake.usgs.gov/product/finite-fault/usp000jhh2/us/1539808586118/complete_inversion.fsp"
+    }
+  },
+  "tensor": {
+    "fuente": "us",
+    "metodo": "Mww",
+    "M0_Nm": 8.92e+21,
+    "Mw": 8.6,
+    "centroide": {
+      "lon": 92.8598,
+      "lat": 2.33,
+      "prof_km": 30.5
+    },
+    "plano1": {
+      "rumbo": 198.0,
+      "buz": 80.0,
+      "rake": 4.0
+    },
+    "plano2": {
+      "rumbo": 107.0,
+      "buz": 85.0,
+      "rake": 170.0
+    }
+  },
+  "catalogo_curso": {
+    "fecha": "2012-04-11",
+    "lat": 2.33,
+    "lon": 93.06,
+    "Mw": 8.6,
+    "tipo": "Rumbo",
+    "escala": "otro",
+    "plano": 1,
+    "slab": null
+  },
+  "localidades": {
+    "Meulaboh": [
+      4.137,
+      96.128
+    ],
+    "Sinabang (Simeulue)": [
+      2.478,
+      96.379
+    ],
+    "Banda Aceh": [
+      5.55,
+      95.317
+    ]
+  },
+  "region": [
+    88.73,
+    100.71,
+    -2.0,
+    9.88
+  ],
+  "archivo_falla_finita": "falla_finita.param",
+  "batimetria_costa": {
+    "Meulaboh": "batimetria_costa_meulaboh.nc",
+    "Sinabang (Simeulue)": "batimetria_costa_sinabang_simeulue.nc",
+    "Banda Aceh": "batimetria_costa_banda_aceh.nc"
+  },
+  "informe_descarga": {
+    "evento": "Océano Índico 2012",
+    "carpeta": "/content/modelacion-sismica-tsunami-espam/datos/eventos/oceano_indico_2012",
+    "fecha_descarga": "2026-11-04T03:00:25Z"
+  }
+}

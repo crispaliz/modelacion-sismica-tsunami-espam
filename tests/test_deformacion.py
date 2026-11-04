@@ -88,3 +88,12 @@ def test_param_usgs_y_dtopo(tmp_path):
     escribir_dtopo_tt3(str(tmp_path / "d.tt3"), LON, LAT, dz)
     lineas = (tmp_path / "d.tt3").read_text().splitlines()
     assert int(lineas[0].split()[0]) == LON.shape[1] and len(lineas) == 9 + LON.shape[0]
+
+
+def test_subfalla_que_asoma_se_recorta():
+    # Centroide a 0,5 km con W = 10 km y δ = 15°: el borde superior quedaría sobre el fondo
+    s = dfm.Subfalla(-80, 0, 0.5, 0, 15, 90, 10, 10, 1.0)
+    assert s.prof_sup < 0
+    LON, LAT = dfm.malla((-80.5, -79.5, -0.5, 0.5), 0.02)
+    uz = s.desplazamiento(LON, LAT)[2]
+    assert np.all(np.isfinite(uz)) and 0.1 < np.abs(uz).max() < 2.0

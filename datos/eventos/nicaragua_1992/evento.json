@@ -1,0 +1,83 @@
+{
+  "id_usgs": "usp0005ddn",
+  "titulo": "M 7.7 - 83 km SSW of Corinto, Nicaragua",
+  "tiempo_utc": "1992-09-02T00:16:01Z",
+  "hipocentro": {
+    "lon": -87.34,
+    "lat": 11.742,
+    "prof_km": 44.8
+  },
+  "magnitud": 7.7,
+  "tipo_magnitud": "mw",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0005ddn",
+  "productos": {
+    "moment-tensor": "us",
+    "finite-fault": {
+      "basic_inversion.param": "https://earthquake.usgs.gov/product/finite-fault/usp0005ddn/us/1539796000986/basic_inversion.param",
+      "complete_inversion.fsp": "https://earthquake.usgs.gov/product/finite-fault/usp0005ddn/us/1539796000986/complete_inversion.fsp"
+    }
+  },
+  "tensor": {
+    "fuente": "us",
+    "metodo": "Mww",
+    "M0_Nm": 4.554e+20,
+    "Mw": 7.7,
+    "centroide": {
+      "lon": -87.7258,
+      "lat": 11.26,
+      "prof_km": 11.5
+    },
+    "plano1": {
+      "rumbo": 293.0,
+      "buz": 11.0,
+      "rake": 73.0
+    },
+    "plano2": {
+      "rumbo": 129.0,
+      "buz": 78.0,
+      "rake": 93.0
+    }
+  },
+  "catalogo_curso": {
+    "fecha": "1992-09-02",
+    "lat": 11.74,
+    "lon": -87.34,
+    "Mw": 7.7,
+    "tipo": "Sismo tsunami",
+    "escala": "interfase",
+    "plano": "menor_buzamiento",
+    "slab": "cam"
+  },
+  "localidades": {
+    "Masachapa": [
+      11.786,
+      -86.519
+    ],
+    "El Tránsito": [
+      12.047,
+      -86.708
+    ],
+    "San Juan del Sur": [
+      11.253,
+      -85.87
+    ]
+  },
+  "region": [
+    -90.34,
+    -82.87,
+    8.25,
+    15.05
+  ],
+  "archivo_falla_finita": "falla_finita.param",
+  "batimetria_costa": {
+    "Masachapa": "batimetria_costa_masachapa.nc",
+    "El Tránsito": "batimetria_costa_el_transito.nc",
+    "San Juan del Sur": "batimetria_costa_san_juan_del_sur.nc"
+  },
+  "archivo_slab2": "slab2_profundidad.grd",
+  "informe_descarga": {
+    "evento": "Nicaragua 1992",
+    "carpeta": "/content/modelacion-sismica-tsunami-espam/datos/eventos/nicaragua_1992",
+    "fecha_descarga": "2026-11-04T03:00:05Z"
+  }
+}

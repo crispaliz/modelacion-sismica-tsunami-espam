@@ -1,0 +1,78 @@
+{
+  "id_usgs": "usc000nzvd",
+  "titulo": "M 8.2 - 93 km NW of Iquique, Chile",
+  "tiempo_utc": "2014-04-01T23:46:47Z",
+  "hipocentro": {
+    "lon": -70.7691,
+    "lat": -19.6097,
+    "prof_km": 25
+  },
+  "magnitud": 8.2,
+  "tipo_magnitud": "mww",
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usc000nzvd",
+  "productos": {
+    "moment-tensor": "us",
+    "finite-fault": {
+      "basic_inversion.param": "https://earthquake.usgs.gov/product/finite-fault/usc000nzvd/us/1539808722675/basic_inversion.param",
+      "complete_inversion.fsp": "https://earthquake.usgs.gov/product/finite-fault/usc000nzvd/us/1539808722675/complete_inversion.fsp"
+    }
+  },
+  "tensor": {
+    "fuente": "us",
+    "metodo": "Mww",
+    "M0_Nm": 2.35e+21,
+    "Mw": 8.2,
+    "centroide": {
+      "lon": -70.54,
+      "lat": -19.63,
+      "prof_km": 25.5
+    },
+    "plano1": {
+      "rumbo": 160.0,
+      "buz": 79.0,
+      "rake": 87.0
+    },
+    "plano2": {
+      "rumbo": 358.0,
+      "buz": 11.0,
+      "rake": 107.0
+    }
+  },
+  "catalogo_curso": {
+    "fecha": "2014-04-01",
+    "lat": -19.61,
+    "lon": -70.77,
+    "Mw": 8.2,
+    "tipo": "Inversa de interplaca",
+    "escala": "interfase",
+    "plano": "menor_buzamiento",
+    "slab": "sam"
+  },
+  "localidades": {
+    "Pisagua": [
+      -19.596,
+      -70.212
+    ],
+    "Iquique": [
+      -20.214,
+      -70.152
+    ]
+  },
+  "region": [
+    -73.9,
+    -67.02,
+    -23.34,
+    -16.47
+  ],
+  "archivo_falla_finita": "falla_finita.param",
+  "batimetria_costa": {
+    "Pisagua": "batimetria_costa_pisagua.nc",
+    "Iquique": "batimetria_costa_iquique.nc"
+  },
+  "archivo_slab2": "slab2_profundidad.grd",
+  "informe_descarga": {
+    "evento": "Iquique 2014",
+    "carpeta": "/content/modelacion-sismica-tsunami-espam/datos/eventos/iquique_2014",
+    "fecha_descarga": "2026-11-04T02:59:28Z"
+  }
+}

@@ -13,7 +13,7 @@ En el Capítulo 1 describieron la fuente de su sismo con una ficha (un rectángu
 
 **Resultado de aprendizaje B (Aplicar):** modelar los desplazamientos verticales producidos por un sismo mediante el modelo de dislocación elástica de Okada (1985), a partir de modelos de falla finita y de los parámetros de la fuente, y evaluar el resultado frente a observaciones.
 
-**Habilidad transversal: resolución de problemas complejos.** El problema tiene información incompleta, modelos que no son únicos y supuestos que cambian el resultado. Se trabaja con la **bitácora de decisiones**, el **diagnóstico de la anomalía** y el **cierre metacognitivo** del cuaderno (marcados con 🧭), y se evalúa con el criterio 6 de la rúbrica.
+**Habilidad transversal: resolución de problemas complejos.** El problema tiene información incompleta, modelos que no son únicos y supuestos que cambian el resultado. Se trabaja con la **bitácora de decisiones**, el **diagnóstico de la anomalía** y el **cierre metacognitivo** del cuaderno (marcados con 🧭), y se evalúa con el criterio 8 de la rúbrica (1 punto).
 
 Desde este capítulo cada grupo trabaja **solo con su evento y su localidad**. Pedernales 2016 fue el caso comparativo del Capítulo 1.
 
@@ -51,43 +51,50 @@ La numeración continúa la del proyecto integrador (figura 2.1, tabla 2.1…).
 
 ## 4. Evaluación
 
-La evaluación de la unidad es un **momento de aprendizaje**: la formativa se gana por intentar y por trabajar la retroalimentación; la sumativa incorpora esa retroalimentación.
+Las guías oficiales en Word (**actividad formativa** y **trabajo sumativo**) se publican en el aula virtual; este es su resumen.
 
 | Momento | Qué se entrega | Puntos | Fecha (propuesta, por confirmar) |
 |---|---|---|---|
-| **Formativa** | Avance: Pasos P a 4 del cuaderno, Decisión 1 de la bitácora y borrador de 2.1–2.3 | 2 | Jueves 26 de noviembre (sesión virtual) |
-| **Sumativa** | Capítulo 2 completo + paquete `modelo_U2` + tabla de respuesta a la retroalimentación | 8 | Martes 1 de diciembre (sesión presencial) |
+| **Formativa** | Avance: Pasos P a 4, Decisión 1 de la bitácora, dudas y borrador de 2.2 a 2.5 | 2 | Miércoles 25 de noviembre, 23:59; retroalimentación el jueves 26 |
+| **Sumativa** | Capítulo 2 completo (PDF) + paquete `modelo_U2` + Anexo 2.A de respuesta a la retroalimentación | 8 | Documento: lunes 30 de noviembre, 23:59 |
+| **Defensa oral** | 10 minutos de exposición + 5 de preguntas (parte de la sumativa) | — | Martes 1 de diciembre, sesión presencial |
 
-**Formativa (2 puntos).** 1 punto por entregar el avance completo en el plazo; 1 punto por responder a la retroalimentación en la sumativa (tabla «observación recibida → qué cambiamos»).
+### Rúbrica de la formativa (2 puntos)
+
+Cuatro criterios de 0,5: cuaderno y evidencias propias; predicción razonada (Paso P); avance de la modelación (2.3 a 2.5); proceso (Decisión 1 de la bitácora y dudas concretas). Niveles: Logrado (100 %), En proceso (70 %), Inicial (40 %), No presenta (0).
 
 ### Rúbrica de la sumativa (8 puntos)
 
-Niveles: **Excelente** (100 % del puntaje del criterio) · **Satisfactorio** (75 %) · **En desarrollo** (50 %) · **Inicial** (25 %) · **No presenta** (0).
+Niveles: **Excelente** (100 %) · **Satisfactorio** (70 %) · **En desarrollo** (40 %) · **Insuficiente** (0).
 
-| # | Criterio | Pts | Excelente | Satisfactorio | En desarrollo | Inicial |
-|---|---|---|---|---|---|---|
-| 1 | **Datos y geometría de la fuente** (2.2) | 1,0 | Describe la falla finita con su origen y limitaciones; interpreta el corte (fosa, buzamiento por tramos, relación con su ficha) con cifras | Describe la falla finita y el corte con cifras, con interpretación parcial | Describe datos sin interpretar la geometría o sin cifras | Copia la salida del cuaderno sin descripción |
-| 2 | **Modelación uniforme frente a falla finita** (2.3) | 1,5 | Explica las diferencias (máximo, hundimiento, línea de cero, fracción en el mar) con el principio de superposición y la distancia a la falla; discute su localidad | Compara con cifras y explica parcialmente las diferencias | Presenta mapas y tabla con una comparación superficial | Presenta figuras sin comparación |
-| 3 | **Rigidez y cinemática** (2.4) | 1,0 | Cuantifica el efecto de μ(z) y lo relaciona con el tipo de evento; calcula y discute la validez de la aproximación instantánea con c = √(g h) | Cuantifica ambos efectos con discusión parcial | Presenta las figuras con una lectura cualitativa | Presenta figuras sin lectura |
-| 4 | **Del fondo a la superficie y paquete para la U3** (2.5 y anexo) | 1,0 | Cuantifica aporte horizontal y efecto de Kajiura, describe η0 frente a la localidad (qué llega primero) y entrega el paquete completo | Cuantifica los efectos y entrega el paquete con alguna omisión menor | Describe η0 sin cuantificar; paquete incompleto | Sin análisis o sin paquete |
-| 5 | **Validación y sensibilidad** (2.6) | 1,0 | Al menos 3 observaciones citadas; compara RMSE entre modelos y explica dónde falla; identifica el parámetro dominante y qué dato reduciría la incertidumbre | Valida con observaciones citadas y lee el tornado, con explicación parcial | Valida con menos de 3 observaciones o sin citas; tornado sin lectura | Sin validación o sin sensibilidad |
-| 6 | **Resolución de problemas complejos** (2.7) | 1,5 | Ver detalle abajo | | | |
-| 7 | **Comunicación** | 1,0 | Responde la pregunta guía con evidencia; figuras numeradas y legibles; redacción técnica clara; todas las cifras externas citadas | Responde la pregunta guía; alguna figura o cita deficiente | Respuesta incompleta; varias figuras o citas deficientes | No responde la pregunta guía |
-| | **Total** | **8,0** | | | | |
+| # | Criterio | Pts |
+|---|---|---|
+| 1 | Respuesta a la retroalimentación (Anexo 2.A) | 0,50 |
+| 2 | Datos y geometría de la fuente (2.3) | 0,75 |
+| 3 | Rectángulo uniforme frente a falla finita (2.4) | 1,25 |
+| 4 | Rigidez y cinemática (2.5) | 0,75 |
+| 5 | Del fondo a la superficie y paquete para la U3 (2.6 y anexo) | 0,75 |
+| 6 | Validación y sensibilidad (2.7) | 1,00 |
+| 7 | Discusión, conclusiones y formato (2.9, 2.10) | 1,00 |
+| 8 | **Resolución de problemas complejos** (2.8) · habilidad blanda | **1,00** |
+| 9 | **Defensa oral** · calificación individual | **1,00** |
+| | **Total** | **8,00** |
 
-### Criterio 6 · Resolución de problemas complejos (1,5 puntos)
+**Criterio 8 · Resolución de problemas complejos.** Se evalúa el proceso, no que las decisiones sean «las correctas»:
 
-Se evalúa el **proceso**, no que las decisiones sean «las correctas». Tres indicadores de 0,5 puntos cada uno:
+| Indicador | Pts | Excelente |
+|---|---|---|
+| 8a · Decidir con evidencia (bitácora, 3 decisiones) | 0,40 | Las tres decisiones comparan dos o más alternativas, se apoyan en evidencia concreta y declaran el riesgo asumido |
+| 8b · Diagnosticar (anomalía, hipótesis y prueba) | 0,30 | Anomalía con cifras, dos hipótesis distinguibles, prueba hecha en el cuaderno y conclusión que reconoce lo que no se puede afirmar |
+| 8c · Reflexionar (predicción y cierre metacognitivo) | 0,30 | Explica qué razonamiento de la predicción falló o acertó; describe con concreción estrategia, atasco y transferencia |
 
-| Indicador | Excelente (0,5) | Satisfactorio (0,375) | En desarrollo (0,25) | Inicial (0,125) |
-|---|---|---|---|---|
-| **6a · Decidir con evidencia** (bitácora, 3 decisiones) | Las tres decisiones comparan al menos dos alternativas, se apoyan en evidencia concreta del cuaderno o la literatura y declaran el riesgo asumido | Tres decisiones con evidencia; alguna sin alternativas o sin riesgo | Decisiones incompletas o justificadas sin evidencia («porque es mejor») | Bitácora vacía o con la plantilla sin completar |
-| **6b · Diagnosticar** (anomalía, hipótesis y prueba) | Describe la anomalía con cifras, plantea dos hipótesis distinguibles, las prueba en el cuaderno y concluye reconociendo lo que no puede afirmar | Hipótesis y prueba realizadas; conclusión poco matizada | Hipótesis planteadas sin prueba, o prueba sin relación con las hipótesis | Solo describe la diferencia entre modelo y observación |
-| **6c · Reflexionar** (predicción vs. modelo y cierre metacognitivo) | Explica qué razonamiento falló o acertó en la predicción y describe con concreción su estrategia, su atasco y qué transferiría a otro evento | Reflexión concreta en dos de los tres aspectos | Reflexión genérica («aprendimos mucho») | Sin reflexión |
+**Criterio 9 · Defensa oral.** Ambos integrantes exponen y responden; quien no intervenga obtiene 0 en este criterio.
 
-### Presentación oral (opcional, a criterio del docente)
-
-Si el capítulo se presenta en clase (10 minutos por grupo, ambos integrantes con una parte calificada individualmente), puede reemplazar 1 punto del criterio 7 con la misma escala de niveles.
+| Aspecto | Pts | Excelente |
+|---|---|---|
+| 9a · Dominio técnico | 0,40 | Explica con sus figuras y cifras qué cambia de la fuente uniforme a la falla finita y del fondo a la superficie |
+| 9b · Decisiones y respuestas | 0,40 | Defiende sus decisiones de la bitácora con evidencia y responde con datos propios, reconociendo límites |
+| 9c · Tiempo y comunicación | 0,20 | 10 minutos (± 1), partes equilibradas, diapositivas con figuras propias |
 
 ## 5. Errores frecuentes
 
